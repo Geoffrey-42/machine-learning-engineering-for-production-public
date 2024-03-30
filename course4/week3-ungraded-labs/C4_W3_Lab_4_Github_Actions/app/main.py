@@ -4,7 +4,7 @@ from typing import List
 from fastapi import FastAPI
 from pydantic import BaseModel, conlist
 
-
+# Testing the CI/CD pipeline when pushing to github
 
 app = FastAPI(title="Predicting Wine Class with batching")
 
